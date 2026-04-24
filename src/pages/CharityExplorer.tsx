@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Filter, ExternalLink, Heart, Users, DollarSign } from 'lucide-react';
+import { Search, Filter, Heart, Users, DollarSign } from 'lucide-react';
 import { api } from '../services/api';
 
 const CharityExplorer: React.FC = () => {
