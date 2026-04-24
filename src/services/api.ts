@@ -1,4 +1,4 @@
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://digital-heroes-backend.vercel.app/api';
 
 const getHeaders = () => {
   const token = localStorage.getItem('token');
